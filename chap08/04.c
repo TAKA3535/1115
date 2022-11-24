@@ -11,7 +11,7 @@ int main(void){
 
     printf("1台目はいくらの車を買いますか？\n");
     scanf("%d", &num);
-
+// 入力した数字を4行目のint xに渡す、値渡しという
     buy(num);
 
     printf("2台目はいくらの車を買いますか？\n");

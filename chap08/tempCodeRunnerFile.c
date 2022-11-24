@@ -1,3 +1,8 @@
-void buy(void){
-    printf("車を買いました。\n");
+int max(int x, int y){
+    if (x > y){
+        return x;
+    }
+    else{
+        return y;
+    }
 }
