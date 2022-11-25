@@ -1,3 +1,4 @@
+// 間接参照　P280
 #include <stdio.h>
 
 int main(void){
@@ -15,3 +16,8 @@ int main(void){
 
     return 0;
 }
+
+// a : 変数
+// &a : 変数aのアドレス
+// pA : 変数aのアドレスを格納したポインタ
+// *pA : 変数aのアドレスを格納するポインタを探している変数→変数a
