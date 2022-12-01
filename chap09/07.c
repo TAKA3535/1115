@@ -24,7 +24,7 @@ int main(void){
 }
 
 //swap関数の定義
-// 12行目のnum1とnum2のアドレスが渡された
+// 12行目のnum1とnum2のアドレスが渡された、*をつけるとアドレスの値がわかる
 void swap(int *pX, int *pY){
     int tmp;
 
@@ -34,7 +34,6 @@ void swap(int *pX, int *pY){
 
     printf("pYの値(num2のアドレス)は%pです。\n", pY);
     printf("pYを間接参照した値は%dです。\n\n", *pY);
-
 
     tmp = *pX;
     *pX = *pY;
