@@ -1,4 +1,4 @@
-// 構造体の配列 P373
+// 構造体でリスト　P374
 #include <stdio.h>
 // 構造体型struct Carの宣言
 typedef struct Car{

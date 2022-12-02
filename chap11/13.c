@@ -1,11 +1,11 @@
-// 列挙型
+// 列挙型 P381
 #include <stdio.h>
 // 列挙型enum Weekの宣言
 typedef enum Week{SUN, MON, TUE, WED, THU, FRY, SAT} Week;
 
 int main(void){
     Week w;
-    w = SUN;
+    w = MON;
     // scanf("%s", &w);
 
     switch (w){
