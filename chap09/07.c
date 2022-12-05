@@ -13,7 +13,7 @@ int main(void){
     printf("変数num2の値は%dです。\n", num2);
     printf("変数num2のアドレスは%pです。\n\n", &num2);
 
-// ここで渡しているのはnum1とnum2のアドレスを渡している
+// ここで渡しているのはnum1とnum2のアドレスを渡している,参照渡し
     swap(&num1, &num2);
 
     printf("\n----関数呼び出し後----\n");
